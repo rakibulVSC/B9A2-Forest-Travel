@@ -1,0 +1,35 @@
+@media screen and (max-width:600px) {
+    nav ul{
+        display: none;
+    }
+    .nav-head{
+        flex-direction: row;
+        width: 100%;
+    }
+    .grid1{
+       flex-direction: column;     
+    }
+    .grid2{
+        grid-template-columns: 1fr;
+    }
+    .grid3{
+        grid-template-columns: 1fr;
+      
+    }
+    .newsletter{
+       flex-direction:column;     
+    }
+    .main-header{
+        flex-direction: column;
+    }
+    .inner{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .banner{
+        width: 390px;
+    }
+    .footer{
+        width: 390px;
+    }
+}
